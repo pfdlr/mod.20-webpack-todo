@@ -1,3 +1,4 @@
+import { hot } from 'react-hot-loader';
 import React from 'react';
 import uuid from 'uuid';
 import style from './App.css';
@@ -46,4 +47,4 @@ class App extends React.Component {
     }
 }
 const appTitle = 'TODO App';
-export default App;
+export default hot(module)(App);
